@@ -5,7 +5,7 @@ Starting Date:29/04/2025
 """
 
 #says hello to the user asking if they want to play a game.
-
+variable = True
 
 
 
