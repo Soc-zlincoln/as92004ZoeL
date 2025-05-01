@@ -21,7 +21,7 @@ else:
 
 
  
-#farewel the player
+#farewell the player
 #tells them their score out of 100
 
 print("Good job you did it!!")
