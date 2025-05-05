@@ -16,22 +16,22 @@ else:
   print("Ok bye-bye.")
 
 #gives thems 5 questions with true or false answers
-input("Whero is the Maori word for Red. True or False?")
-if True :
+user_answer = input("Whero is the Maori word for Red. True or False?")
+if user_answer == "True":
   print("Correct! Whero is the Maori word for Red.")
   score = +20
 else:
   print("Incorrect! Try and remember for next time.")
 
 input("Kowhai is the Maori for Blue. True or False?")
-if False :
+if user_answer == "False":
   print("Correct! Kowhai is Maori for Yellow not Blue.")
   score = +20
 else:
   print("Incorrect! Kowhai isn't Blue.")
 
 input("Kakariki is the Maori word for Green. True or False?")
-if True :
+if user_answer == "True":
   print("Correct! Kakariki is the Maori word for Green.")
   score = +20
 else:
@@ -43,4 +43,10 @@ else:
 
 print("Good job you did it!!")
 print("You got", score, "out of 100!!")
+
+
+
+
+
+
 
