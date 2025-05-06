@@ -7,6 +7,8 @@ Starting Date:29/04/2025
 score = 0
 name = input("What's your name?")
 start_game = input("Would you like to play a true or false Maori colour quiz?")
+question1 = ["Whero is the Maori word for Red. True or False?", "Kowhai is the Maori for Blue. True or False?","Kakariki is the Maori word for Green. True or False?","Ma Whero is the Maori word for White. True or False?","Pango is the Maori word for Black. True or False?"]
+answer = ["True","False","True","False","True"]
 
 #says hello to the user asking if they want to play a game
 
@@ -16,26 +18,10 @@ else:
   print("Ok bye-bye.")
 
 #gives thems 5 questions with true or false answers
-user_answer = input("Whero is the Maori word for Red. True or False?")
-if user_answer == "True":
-  print("Correct! Whero is the Maori word for Red.")
-  score = +20
-else:
-  print("Incorrect! Try and remember for next time.")
-
-input("Kowhai is the Maori for Blue. True or False?")
-if user_answer == "False":
-  print("Correct! Kowhai is Maori for Yellow not Blue.")
-  score = +20
-else:
-  print("Incorrect! Kowhai isn't Blue.")
-
-input("Kakariki is the Maori word for Green. True or False?")
-if user_answer == "True":
-  print("Correct! Kakariki is the Maori word for Green.")
-  score = +20
-else:
-  print("Incorrect! Try and remember for next time.")
+for x in question1:
+  if x == user_answer:
+    break
+  print(x)
 
  
 #farewell the player
