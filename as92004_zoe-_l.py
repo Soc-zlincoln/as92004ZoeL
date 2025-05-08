@@ -23,7 +23,7 @@ for x in range(len(question)):
 
   if user_answer == answer[x]:
     print("Correct!! Well done.")
-    score = +20
+    score += 20
   else:
     print("Incorrect!! Remember for next time.")
  
