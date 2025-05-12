@@ -17,7 +17,8 @@ def game_play():
     print("Great", name,"let's get started!! The way you play is You will be asked if the Maori translastion lines up with the english translastion of the colour.")
   else:
     print("Ok bye-bye.")
-  return
+    return
+  
   #gives thems 5 questions with true or false answers
   for x in range(len(question)):
     user_answer = input(question[x])
