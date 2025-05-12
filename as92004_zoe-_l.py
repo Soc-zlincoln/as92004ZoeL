@@ -7,14 +7,14 @@ Starting Date:29/04/2025
 def game_play():
   score = 0
   name = input("What's your name?")
-  start_game = input("Would you like to play a true or false Maori colour quiz?")
-  question = ["Whero is the Maori word for Red. True or False?", "Kowhai is the Maori for Blue. True or False?","Kakariki is the Maori word for Green. True or False?","Ma Whero is the Maori word for White. True or False?","Pango is the Maori word for Black. True or False?"]
+  start_game = input("Would you like to play a true or false Māori  colour quiz?")
+  question = ["Whero is the Māori word for Red. true or false??", "Kōwhai  is the Māori for Blue. true or false?","Kākāriki is the Māori word for Green. true or false??","Mā Whero is the Māori word for White. true or false??","Pango is the Māori word for Black. true or false?"]
   answer = ["true","false","true","false","true"]
   
   #says hello to the user asking if they want to play a game
   
   if start_game == "yes" :
-    print("Great", name,"let's get started!! The way you play is You will be asked if the Maori translastion lines up with the english translastion of the colour.")
+    print("Great", name,"let's get started!! The way you play is You will be asked if the Māori translastion lines up with the english translastion of the colour.")
   else:
     print("Ok bye-bye.")
     return
