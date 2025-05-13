@@ -14,12 +14,12 @@ def game_play():
   #says hello to the user asking if they want to play a game
   
   if start_game == "yes" :
-    print("Great", name,"let's get started!! The way you play is You will be asked if the Māori translastion lines up with the english translastion of the colour.")
+    print("Great", name,"let's get started!! The way you play is You will be asked if the Māori translation lines up with the english translation of the colour.")
   else:
     print("Ok bye-bye.")
     return
   
-  #gives thems 5 questions with true or false answers
+  #gives them 5 questions with true or false answers
   for x in range(len(question)):
     user_answer = input(question[x])
   
